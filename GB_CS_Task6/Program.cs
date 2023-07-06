@@ -12,13 +12,12 @@ Console.Clear();
 Console.WriteLine("Я кибер мозг, дайте мне число: ");
 int userInput = Convert.ToInt32(Console.ReadLine());
 int num = userInput % 2;
-Console.WriteLine("Обрабатываю. . .");
-Console.WriteLine(" .");
-Console.WriteLine(" .");
-Console.WriteLine(" .");
-Console.WriteLine(" .");
-Console.WriteLine(" ."); // Хотел сделть здесь небольшую паузу, для вида как обрабатывается информация. но как то все быстро происходит:-D
-Console.Clear();
+Console.Write("Обрабатываю . . .");
+Console.Write(" .");
+Console.Write(" .");
+Console.Write(" .");
+Console.Write(" .");
+Console.Write(" . "); // Хотел сделть здесь небольшую паузу, для вида как обрабатывается информация. но как то все быстро происходит:-D
 if (num == 0)
 {
     Console.Write($"#{userInput} -> Это число ЧЕТНОЕ!");
